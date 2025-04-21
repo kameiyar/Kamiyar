@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>فیلم 4</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      background: linear-gradient(270deg, red, orange, yellow, green, cyan, blue, violet, red);
+      background-size: 2000% 2000%;
+      animation: rainbowBackground 30s ease infinite;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      color: white;
+      text-align: center;
+    }
+    @keyframes rainbowBackground {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+    video {
+      width: 90%;
+      max-width: 800px;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    }
+    .download-btn {
+      margin-top: 25px;
+      padding: 12px 25px;
+      font-size: 18px;
+      background: linear-gradient(45deg, red, orange, yellow, green, cyan, blue, violet, red);
+      background-size: 300% 300%;
+      animation: rainbowBtn 10s linear infinite;
+      border: none;
+      border-radius: 12px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    }
+    @keyframes rainbowBtn {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+  </style>
+</head>
+<body>
+  <h1>پخش فیلم 4</h1>
+  <video controls>
+    <source src="videos/film4.mp4" type="video/mp4">
+    مرورگر شما از پخش ویدیو پشتیبانی نمی‌کند.
+  </video>
+  <a class="download-btn" href="videos/film4.mp4" download>دانلود فیلم 4</a>
+</body>
+</html>
