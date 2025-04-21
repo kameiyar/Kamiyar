@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>فیلم‌های من</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      background: linear-gradient(270deg, red, orange, yellow, green, cyan, blue, violet, red);
+      background-size: 2000% 2000%;
+      animation: rainbowBackground 30s ease infinite;
+      overflow-y: auto;
+    }
+    @keyframes rainbowBackground {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+    h1 {
+      text-align: center;
+      padding: 40px 0 20px;
+      color: white;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+      font-size: 36px;
+    }
+    .button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 60px auto;
+      height: 180px;
+      width: 320px;
+      font-size: 26px;
+      font-weight: bold;
+      text-decoration: none;
+      color: white;
+      border-radius: 20px;
+      background: linear-gradient(45deg, red, orange, yellow, green, cyan, blue, violet, red);
+      background-size: 500% 500%;
+      animation: rainbowButton 10s linear infinite;
+      box-shadow: 0 0 14px rgba(0,0,0,0.4);
+      transition: transform 0.3s;
+    }
+    .button:hover {
+      transform: scale(1.08);
+    }
+    @keyframes rainbowButton {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+  </style>
+</head>
+<body>
+  <h1>فیلم‌های من</h1>
+  <a class="button" href="film1.html">فیلم 1</a><a class="button" href="film2.html">فیلم 2</a><a class="button" href="film3.html">فیلم 3</a><a class="button" href="film4.html">فیلم 4</a><a class="button" href="film5.html">فیلم 5</a><a class="button" href="film6.html">فیلم 6</a><a class="button" href="film7.html">فیلم 7</a><a class="button" href="film8.html">فیلم 8</a><a class="button" href="film9.html">فیلم 9</a><a class="button" href="film10.html">فیلم 10</a>
+</body>
+</html>
